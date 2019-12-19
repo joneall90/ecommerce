@@ -16,7 +16,7 @@ import java.util.List;
 @RequestMapping("/api/order")
 public class OrderController {
 
-	private static final Logger log = LoggerFactory.getLogger(OrderController.class);
+	private static final Logger log = LoggerFactory.getLogger("splunkLogger");
 	
 	@Autowired
 	private UserRepository userRepository;
